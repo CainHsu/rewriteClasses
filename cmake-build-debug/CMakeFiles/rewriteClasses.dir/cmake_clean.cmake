@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/rewriteClasses.dir/DataStructures/XCStack.cpp.o"
   "CMakeFiles/rewriteClasses.dir/main.cpp.o"
   "rewriteClasses"
   "rewriteClasses.pdb"

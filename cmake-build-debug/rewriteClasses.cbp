@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/xuchen/CLionProjects/rewriteClasses/DataStructures/XCStack.cpp">
+			<Option target="rewriteClasses"/>
+		</Unit>
+		<Unit filename="/Users/xuchen/CLionProjects/rewriteClasses/DataStructures/XCStack.hpp">
+			<Option target="rewriteClasses"/>
+		</Unit>
 		<Unit filename="/Users/xuchen/CLionProjects/rewriteClasses/main.cpp">
 			<Option target="rewriteClasses"/>
 		</Unit>

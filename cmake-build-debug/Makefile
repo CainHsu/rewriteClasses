@@ -123,6 +123,33 @@ rewriteClasses/fast:
 	$(MAKE) -f CMakeFiles/rewriteClasses.dir/build.make CMakeFiles/rewriteClasses.dir/build
 .PHONY : rewriteClasses/fast
 
+DataStructures/XCStack.o: DataStructures/XCStack.cpp.o
+
+.PHONY : DataStructures/XCStack.o
+
+# target to build an object file
+DataStructures/XCStack.cpp.o:
+	$(MAKE) -f CMakeFiles/rewriteClasses.dir/build.make CMakeFiles/rewriteClasses.dir/DataStructures/XCStack.cpp.o
+.PHONY : DataStructures/XCStack.cpp.o
+
+DataStructures/XCStack.i: DataStructures/XCStack.cpp.i
+
+.PHONY : DataStructures/XCStack.i
+
+# target to preprocess a source file
+DataStructures/XCStack.cpp.i:
+	$(MAKE) -f CMakeFiles/rewriteClasses.dir/build.make CMakeFiles/rewriteClasses.dir/DataStructures/XCStack.cpp.i
+.PHONY : DataStructures/XCStack.cpp.i
+
+DataStructures/XCStack.s: DataStructures/XCStack.cpp.s
+
+.PHONY : DataStructures/XCStack.s
+
+# target to generate assembly for a file
+DataStructures/XCStack.cpp.s:
+	$(MAKE) -f CMakeFiles/rewriteClasses.dir/build.make CMakeFiles/rewriteClasses.dir/DataStructures/XCStack.cpp.s
+.PHONY : DataStructures/XCStack.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... rewriteClasses"
+	@echo "... DataStructures/XCStack.o"
+	@echo "... DataStructures/XCStack.i"
+	@echo "... DataStructures/XCStack.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

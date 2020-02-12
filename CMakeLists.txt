@@ -3,4 +3,4 @@ project(rewriteClasses)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(rewriteClasses main.cpp)
+add_executable(rewriteClasses main.cpp DataStructures/XCStack.cpp DataStructures/XCStack.hpp)
